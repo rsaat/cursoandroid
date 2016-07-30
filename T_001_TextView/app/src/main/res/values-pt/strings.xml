@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">T_001_TextView</string>
+
+    <string name="hello_world">Olá Mundo!</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="titulo">Android</string>
+</resources>
