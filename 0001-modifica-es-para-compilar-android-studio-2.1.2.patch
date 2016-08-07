@@ -8,20 +8,20 @@ Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
 
 ---
- T_004_Scrool/.idea/gradle.xml                         | 14 +++++++++++++-
- T_004_Scrool/.idea/misc.xml                           |  2 +-
- T_004_Scrool/.idea/modules.xml                        |  1 +
- T_004_Scrool/.idea/vcs.xml                            |  6 ++++++
- T_004_Scrool/app/build.gradle                         | 12 +++++++-----
- T_004_Scrool/build.gradle                             |  6 +++++-
- T_004_Scrool/gradle/wrapper/gradle-wrapper.properties |  2 +-
+ TesteZuado/.idea/gradle.xml                         | 14 +++++++++++++-
+ TesteZuado/.idea/misc.xml                           |  2 +-
+ TesteZuado/.idea/modules.xml                        |  1 +
+ TesteZuado/.idea/vcs.xml                            |  6 ++++++
+ TesteZuado/app/build.gradle                         | 12 +++++++-----
+ TesteZuado/build.gradle                             |  6 +++++-
+ TesteZuado/gradle/wrapper/gradle-wrapper.properties |  2 +-
  7 files changed, 34 insertions(+), 9 deletions(-)
- create mode 100644 T_004_Scrool/.idea/vcs.xml
+ create mode 100644 TesteZuado/.idea/vcs.xml
 
-diff --git a/T_004_Scrool/.idea/gradle.xml b/T_004_Scrool/.idea/gradle.xml
+diff --git a/TesteZuado/.idea/gradle.xml b/TesteZuado/.idea/gradle.xml
 index 5f9fb3a..ee6ddd0 100644
---- a/T_004_Scrool/.idea/gradle.xml
-+++ b/T_004_Scrool/.idea/gradle.xml
+--- a/TesteZuado/.idea/gradle.xml
++++ b/TesteZuado/.idea/gradle.xml
 @@ -3,9 +3,21 @@
    <component name="GradleSettings">
      <option name="linkedExternalProjectsSettings">
@@ -45,10 +45,10 @@ index 5f9fb3a..ee6ddd0 100644
        </GradleProjectSettings>
      </option>
    </component>
-diff --git a/T_004_Scrool/.idea/misc.xml b/T_004_Scrool/.idea/misc.xml
+diff --git a/TesteZuado/.idea/misc.xml b/TesteZuado/.idea/misc.xml
 index 4766249..7c1371c 100644
---- a/T_004_Scrool/.idea/misc.xml
-+++ b/T_004_Scrool/.idea/misc.xml
+--- a/TesteZuado/.idea/misc.xml
++++ b/TesteZuado/.idea/misc.xml
 @@ -34,7 +34,7 @@
      <ConfirmationsSetting value="0" id="Add" />
      <ConfirmationsSetting value="0" id="Remove" />
@@ -58,10 +58,10 @@ index 4766249..7c1371c 100644
      <output url="file://$PROJECT_DIR$/build/classes" />
    </component>
    <component name="ProjectType">
-diff --git a/T_004_Scrool/.idea/modules.xml b/T_004_Scrool/.idea/modules.xml
+diff --git a/TesteZuado/.idea/modules.xml b/TesteZuado/.idea/modules.xml
 index e3c7927..985142d 100644
---- a/T_004_Scrool/.idea/modules.xml
-+++ b/T_004_Scrool/.idea/modules.xml
+--- a/TesteZuado/.idea/modules.xml
++++ b/TesteZuado/.idea/modules.xml
 @@ -3,6 +3,7 @@
    <component name="ProjectModuleManager">
      <modules>
@@ -71,11 +71,11 @@ index e3c7927..985142d 100644
    </component>
  </project>
 \ No newline at end of file
-diff --git a/T_004_Scrool/.idea/vcs.xml b/T_004_Scrool/.idea/vcs.xml
+diff --git a/TesteZuado/.idea/vcs.xml b/TesteZuado/.idea/vcs.xml
 new file mode 100644
 index 0000000..6c0b863
 --- /dev/null
-+++ b/T_004_Scrool/.idea/vcs.xml
++++ b/TesteZuado/.idea/vcs.xml
 @@ -0,0 +1,6 @@
 +<?xml version="1.0" encoding="UTF-8"?>
 +<project version="4">
@@ -84,10 +84,10 @@ index 0000000..6c0b863
 +  </component>
 +</project>
 \ No newline at end of file
-diff --git a/T_004_Scrool/app/build.gradle b/T_004_Scrool/app/build.gradle
+diff --git a/TesteZuado/app/build.gradle b/TesteZuado/app/build.gradle
 index 878aabd..a28cf76 100644
---- a/T_004_Scrool/app/build.gradle
-+++ b/T_004_Scrool/app/build.gradle
+--- a/TesteZuado/app/build.gradle
++++ b/TesteZuado/app/build.gradle
 @@ -1,13 +1,13 @@
  apply plugin: 'com.android.application'
  
@@ -101,7 +101,7 @@ index 878aabd..a28cf76 100644
          applicationId "br.com.impacta.helloworld"
 -        minSdkVersion 18
 -        targetSdkVersion 22
-+        minSdkVersion 15
++        minSdkVersion 19
 +        targetSdkVersion 24
          versionCode 1
          versionName "1.0"
@@ -115,10 +115,10 @@ index 878aabd..a28cf76 100644
 +    compile 'com.android.support:appcompat-v7:24.1.1'
 +    compile 'com.android.support:design:24.1.1'
  }
-diff --git a/T_004_Scrool/build.gradle b/T_004_Scrool/build.gradle
+diff --git a/TesteZuado/build.gradle b/TesteZuado/build.gradle
 index 9405f3f..aff4f41 100644
---- a/T_004_Scrool/build.gradle
-+++ b/T_004_Scrool/build.gradle
+--- a/TesteZuado/build.gradle
++++ b/TesteZuado/build.gradle
 @@ -5,7 +5,7 @@ buildscript {
          jcenter()
      }
@@ -136,10 +136,10 @@ index 9405f3f..aff4f41 100644
 +task clean(type: Delete) {
 +    delete rootProject.buildDir
 +}
-diff --git a/T_004_Scrool/gradle/wrapper/gradle-wrapper.properties b/T_004_Scrool/gradle/wrapper/gradle-wrapper.properties
+diff --git a/TesteZuado/gradle/wrapper/gradle-wrapper.properties b/TesteZuado/gradle/wrapper/gradle-wrapper.properties
 index 31c52b2..c96a0bb 100644
---- a/T_004_Scrool/gradle/wrapper/gradle-wrapper.properties
-+++ b/T_004_Scrool/gradle/wrapper/gradle-wrapper.properties
+--- a/TesteZuado/gradle/wrapper/gradle-wrapper.properties
++++ b/TesteZuado/gradle/wrapper/gradle-wrapper.properties
 @@ -3,4 +3,4 @@ distributionBase=GRADLE_USER_HOME
  distributionPath=wrapper/dists
  zipStoreBase=GRADLE_USER_HOME

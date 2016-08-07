@@ -75,17 +75,19 @@ public class MainActivity extends AppCompatActivity {
         sp_produtos.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-//                if (position != 0) {
-//                    Produto pAux = (Produto) parent.getItemAtPosition(position);
-//                    //
-//                    Toast.makeText(
-//                            context,
-//                            String.valueOf(pAux.getIdproduto()) + " - " + String.valueOf(position) + " - " + String.valueOf(id),
-//                            Toast.LENGTH_SHORT
-//                    ).show();
-//                }
-
                 if (position != 0) {
+                    Produto pAux = (Produto) parent.getItemAtPosition(position);
+                    //
+                    Toast.makeText(
+                            context,
+                            String.valueOf(pAux.getIdproduto()) + " - " + String.valueOf(position) + " - " + String.valueOf(id),
+                            Toast.LENGTH_SHORT
+                    ).show();
+                }
+
+                /*
+                if (position != 0) {
+                    Object p =  parent.getItemAtPosition(position);
                     HMAuxHugo pAux = (HMAuxHugo) parent.getItemAtPosition(position);
                     //
                     Toast.makeText(
@@ -94,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT
                     ).show();
                 }
+                */
 
             }
 
