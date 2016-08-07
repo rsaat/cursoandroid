@@ -12,7 +12,6 @@ import android.widget.Spinner;
 
 import java.util.ArrayList;
 
-
 public class MainActivity extends ActionBarActivity {
 
     private Context context;
@@ -21,6 +20,7 @@ public class MainActivity extends ActionBarActivity {
     private ArrayAdapter<String> adapter_nomes;
 
     private Spinner sp_nomes;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
