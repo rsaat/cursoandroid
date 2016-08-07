@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@android:drawable/ic_delete"
+        android:drawableLeft="@android:drawable/ic_delete"
+        android:drawableRight="@android:drawable/ic_delete"
+        android:drawableTop="@android:drawable/ic_delete"
+        android:text="Android"
+        android:textSize="50sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Android"
+        android:textSize="50sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:checked="true"
+        android:text="Android"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:textSize="50sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:checked="false"
+        android:text="Android"
+        android:drawableRight="@drawable/checkbox_style"
+        android:textSize="50sp" />
+
+</LinearLayout>

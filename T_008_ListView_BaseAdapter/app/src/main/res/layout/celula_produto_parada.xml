@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/celula_tv_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Cara para Caraca"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/celula_tv_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Samgung Galaxy S7"
+        android:textColor="#FFFF00FF"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
